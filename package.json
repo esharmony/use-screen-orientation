@@ -1,0 +1,35 @@
+{
+  "name": "use-screen-orientation",
+  "version": "1.0.0",
+  "description": "hook for handling screen orientation in react projects for web",
+  "main": "dist/useScreenOrientation.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "orientation",
+    "screen",
+    "hook",
+    "web",
+    "react",
+    "typescript",
+    "nextjs"
+  ],
+  "prepublish": "tsc",
+  "author": "Matthew Barnden",
+  "license": "ISC",
+  "types": "dist/useScreenOrientation.d.ts",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.17",
+    "typescript": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esharmony/use-screen-orientation"
+  },
+  "bugs": "https://github.com/esharmony/use-screen-orientation/issues"
+}
