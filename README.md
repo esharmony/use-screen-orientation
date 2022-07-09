@@ -33,7 +33,8 @@ The two properties available are:
 
 You can use angle if you require something more granular than landscape or portrait.
 
-Attention: If testing in the dev tools, **insure to refresh after switching to the mobile or tablet emulator in browser** as the event listener will not be set via the switch to emulation from browser alone. The event listener is set only on page load when the event **onorientationchange** is available.
+Attention: If testing in the dev tools, **insure to refresh after switching to the mobile or tablet emulator in browser** as the event listener will not be set via the switch to emulation from the browser alone. 
+The event listener is set only on page load when the event **onorientationchange** is available.
 
 
 
